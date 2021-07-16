@@ -1,9 +1,8 @@
 package com.intellias.exchangeserver.service;
 
+import java.util.Map;
 import com.intellias.exchangeserver.model.dto.ExchangeRequestDto;
 import org.springframework.stereotype.Component;
-
-import java.util.Map;
 
 @Component
 public class CurrencyExchanger {

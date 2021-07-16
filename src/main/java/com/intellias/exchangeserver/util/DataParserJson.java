@@ -1,16 +1,15 @@
 package com.intellias.exchangeserver.util;
 
-import com.intellias.exchangeserver.model.dto.ExchangeRequestDto;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-import org.springframework.stereotype.Component;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import com.intellias.exchangeserver.model.dto.ExchangeRequestDto;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+import org.springframework.stereotype.Component;
 
 @Component
 public class DataParserJson implements DataParser {
